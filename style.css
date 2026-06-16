@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pliant:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Condensed+One&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width:100%;
+    height: 100%;
+    background-color: black;
+    color:white;
+}
+
+.main{
+    width:100%;
+    height: 100%;
+    background-image: url('https://i.pinimg.com/originals/c4/9d/9d/c49d9d5e772baf4416a9b4bb31700aaa.gif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+
+.main::before{
+    content :"";
+    width:100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0.95;
+}
+
+.main-score-card{
+    position: relative;
+    width:max-content;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    z-index: 1;
+}
+
+.main-score-card h1{
+    font-family: "Pliant", sans-serif;
+}
+
+.main-score-card h2{
+    font-family: "Pliant", sans-serif;
+}
+
+.game-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.score-time-area{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    font-family: "Pliant", sans-serif;
+}
+.game-area{
+    position: relative;
+    width:95%;
+    height: 80%;
+    backdrop-filter: blur(2px);
+    background: rgba(255,255,255,0.03);
+    margin-bottom: 1rem;
+}
+
+button{
+    font-size: 1rem;
+    padding: .5rem 2rem;
+}
+
+.game-area .box{
+    width:80px;
+    height: 80px;
+    background-color: crimson;
+    position: absolute;
+}
+
+.start:active{
+    scale: 0.85;
+}
+.stop:active{
+    scale:0.85
+}
+
+.players-info{
+    margin-top: .2rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+.player-info-area{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: "Pliant", sans-serif;
+}
