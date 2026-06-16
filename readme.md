@@ -48,3 +48,7 @@ This project is built purely for practice and learning purposes.
 
 Still improving step by step 🚀
 
+## 🔗 Project Link
+
+👉 Click here for the live Link  
+https://click-score-game.netlify.app/
