@@ -16,6 +16,7 @@ The goal is simple:
 * Game over sound effect
 * Anti-spam click protection (cooldown system)
 * Start / Stop game controls
+* Unnecessary clicks are ignored (box clicks are counted only during valid game logic controlled by timer system)
 
 ⸻
 
@@ -27,6 +28,7 @@ The goal is simple:
 * State management (score, time, game states)
 * Audio integration in web apps
 * Basic browser storage concepts
+
 
 ⸻
 
