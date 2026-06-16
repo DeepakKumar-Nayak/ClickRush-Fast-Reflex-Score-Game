@@ -52,3 +52,7 @@ Still improving step by step 🚀
 
 👉 Click here for the live Link  
 https://click-score-game.netlify.app/
+
+🔊 Audio Note
+
+Click and game over sound effects are fully implemented in the game. However, due to macOS screen recording limitations, system audio may not be captured in recordings by default.
